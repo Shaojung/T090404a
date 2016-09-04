@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="21852768157302"
+    token="6919035887165939965" >
+
+    <task
+        name="javac"
+        duration="766" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="65" />
+    <task
+        name="verifier"
+        duration="19" />
+
+    <artifact
+        location="C:\Users\student\T090404\a20160710_eBookOnline\build\outputs\apk\a20160710_eBookOnline-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="21852768157302" >
+        <artifact
+            location="C:\Users\student\T090404\a20160710_eBookOnline\build\outputs\apk\a20160710_eBookOnline-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

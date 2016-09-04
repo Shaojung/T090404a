@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.cloud95.android.lession.ebook1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- splitActionBarWhenNarrow 屬性，API 須為14以上 -->
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="net.cloud95.android.lession.ebook1.BookActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo" >
+
+            <!-- splitActionBarWhenNarrow 屬性，當螢幕比較窄的時候，把 ActionBar 的圖示從上方的標題列移到下面 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
